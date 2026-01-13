@@ -12,7 +12,6 @@ import {
   Info,
   Code2,
   Zap,
-  ChevronRight,
   Lightbulb
 } from 'lucide-react';
 
@@ -159,7 +158,7 @@ export default function SortingStudio() {
             <div className="w-8 h-8 bg-cyan-500 rounded-lg flex items-center justify-center shadow-lg shadow-cyan-500/20">
               <Zap className="text-slate-950 w-5 h-5 fill-current" />
             </div>
-            <h1 className="font-black italic tracking-tighter text-xl uppercase">Sorting_Lab</h1>
+            <h1 className="font-black italic tracking-tighter text-xl uppercase">Bubble_Sort_Studio</h1>
           </div>
           <div className="flex items-center gap-6">
             <div className="hidden md:flex items-center gap-2 text-[10px] mono uppercase text-slate-500">
@@ -168,7 +167,7 @@ export default function SortingStudio() {
                 {isPlaying ? 'Computing' : 'Paused'}
               </span>
             </div>
-            <a href="https://github.com" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-white transition-colors">
+            <a href="https://github.com/iidaatcnt/sorting-studio" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-white transition-colors">
               <Github size={20} />
             </a>
           </div>
@@ -183,7 +182,7 @@ export default function SortingStudio() {
           <div className="relative aspect-video lg:aspect-square max-h-[500px] bg-slate-900/50 rounded-3xl border border-white/5 p-12 flex items-end justify-center gap-2 overflow-hidden group">
             <div className="absolute top-6 left-6 flex items-center gap-2 mono text-[10px] text-slate-500 uppercase">
               <div className="w-1.5 h-1.5 rounded-full bg-cyan-500 animate-pulse" />
-              Live Visualization
+              Bubble Sort Visualization
             </div>
 
             <AnimatePresence mode="popLayout">
