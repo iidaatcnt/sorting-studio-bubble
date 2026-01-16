@@ -340,7 +340,7 @@ export default function SortingStudio() {
       <footer className="mt-20 border-t border-slate-200 py-12 px-6">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest text-center md:text-left">
-            Developed for Informatics I // Educational Sandbox // しろいプログラミング教室
+            Fundamental Wisdom for the AI Era // Algorithm Literacy // しろいプログラミング教室
           </p>
           <div className="flex items-center gap-8 text-[10px] font-bold text-slate-400 uppercase tracking-widest">
             <span className="hover:text-indigo-600 cursor-pointer transition-colors">Documentation</span>
